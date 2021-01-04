@@ -21,5 +21,5 @@
 
 # Main header
  
- another section of information with addition link on third main header
- * create file with [configurations](#header-third-main)
+ another section of information with created link to header: 
+  [#header-third-main](#header-third-main)
