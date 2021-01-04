@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ElenaGrigorets/fullstack-course/issues"
   },
-  "homepage": "https://github.com/ElenaGrigorets/fullstack-course#readme"
+  "homepage": "https://github.com/ElenaGrigorets/fullstack-course#readme",
+  "dependencies": {
+    "tachyons": "^4.12.0"
+  }
 }

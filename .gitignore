@@ -1,0 +1,9 @@
+*.iml
+*.idea
+
+node_modules
+*.pem
+.vscode
+credentials.json
+bin
+.env
