@@ -1,0 +1,32 @@
+
+
+Array.length - size of array;                               https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length  
+Array.push() - to insert element(s) in the end of array;    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push
+Array.unshift() - to insert element(s) at the beginning;    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift
+
+Array.pop() - removes last element from array and returnes it (opposite "push()");
+Array.shift() - removes first element from array and returnes it (opposite "unshift()");
+
+
+Spread operator
+
+* to insert one array into another:
+const arrayOne = [ 'same', 'some', 'thing' ];
+const arrayTwo = [ 'top', 'bottom' ];
+if we make: const arrayTwo = [ 'top', arrayOne, 'bottom' ] it give us:  [ el1, [ el1, el2, el3 ], el2 ]
+but with spread operator: const arrayTwo = [ 'top', ...arrayOne, 'bottom' ] it gives [ el1, el2, el3, el4, el5 ]
+
+* to combine arrays:
+const array3 = [ ...arr1, ...arr2 ];
+
+* to convert in separate values:
+const numbers = [ 10, 20, 30, 40, 50 ];
+Math.max(numbers) returns NaN, because not a number, but :
+Math.max(...numbers) returns 50;
+
+
+Using a 'for' Loop to Iterate Over an Array (playList.js example)
+
+Array.join() - make all elements in one string separated by default with comma
+Array.includes() - wheter an array includes a sertain value, returns true or false (case sensative)
+Array.indexOf() - returns index of element or negative one if it could not find such element

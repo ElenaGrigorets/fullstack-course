@@ -1,0 +1,19 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "full stack course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElenaGrigorets/fullstack-course.git"
+  },
+  "author": "Olena Hryhorets",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElenaGrigorets/fullstack-course/issues"
+  },
+  "homepage": "https://github.com/ElenaGrigorets/fullstack-course#readme"
+}
