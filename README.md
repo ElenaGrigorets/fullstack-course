@@ -1,4 +1,5 @@
 ### Header third main
+[link to optimizer](#optimizer)
 
 ### Some table
 | Name | Description |
@@ -23,3 +24,5 @@
  
  another section of information with created link to header: 
   [#header-third-main](#header-third-main)
+
+  Some another way for creating a link is to make named anchor below header or whatever you want to refer to <a name="optimizer"></name>
