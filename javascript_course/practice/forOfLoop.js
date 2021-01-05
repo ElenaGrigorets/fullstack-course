@@ -9,3 +9,11 @@ for (var val of a) {
 console.log( val );
 }
 // "a" "b" "c" "d" "e"
+
+//     Standard built-in values in JavaScript that are by default iterables (or provide them) include:
+//       • arrays
+//       • strings
+//       • generators 
+//       • collections / TypedArrays 
+//     Plain objects are not by default suitable for for..of looping. That’s
+// because they don’t have a default iterator
