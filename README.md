@@ -1,7 +1,7 @@
-### Header third main
-[link to optimizer](#optimizer)
+### Header first Main
+[link to "SomeTitle"](#optimizer)
 
-### Some table
+### Some table sample
 | Name | Description |
 | ------ | ------ |
 | [nginx] | configured to listen port 3000 |
@@ -20,9 +20,9 @@
 |  | installed |
 |  | installed | 
 
-# Main header
+# Some second header
  
- another section of information with created link to header: 
-  [#header-third-main](#header-third-main)
+ This is some section of information with created link to : 
+  [Header Main](#header-first-main)
 
-  Some another way for creating a link is to make named anchor below header or whatever you want to refer to <a name="optimizer"></name>
+  Some another way for creating a link is to make named anchor below header or whatever you want to refer to <a name="optimizer"></name> "SomeTitle"

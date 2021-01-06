@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development",
-   "build": "webpack --mode production",
+    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +18,5 @@
     "url": "https://github.com/ElenaGrigorets/fullstack-course/issues"
   },
   "homepage": "https://github.com/ElenaGrigorets/fullstack-course#readme",
-  "dependencies": {
-    "tachyons": "^4.12.0"
-  }
+  "dependencies": {}
 }
