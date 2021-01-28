@@ -1,0 +1,15 @@
+You can download jQuery from here: https://jquery.com/download/
+Always include the jQuery file before your custom scripts
+jQuery's CDN:
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+Syntax:  $(selector).action();
+In jQuery, the dollar sign ($) is just an alias for jQuery.
+<script>
+    $(document).ready(function(){
+        // Some code to be executed...
+        alert("Hello World!");
+    });
+</script>
+Note: You should place the jQuery code inside the document ready event
+      so that your code executes when the document is ready to be worked on.

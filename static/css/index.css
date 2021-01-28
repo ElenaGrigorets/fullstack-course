@@ -1,59 +1,108 @@
+@keyframes blink {
+  0% {
+    background: #57dede;
+  }
+
+  15% {
+    background: #93ffff;
+  }
+
+  32% {
+    background: #c6f2f2;
+  }
+
+  45% {
+    background: #02f5f5;
+  }
+
+  58% {
+    background: #c7f2f2;
+  }
+
+  70% {
+    background: #00e9ca;
+  }
+
+  77% {
+    background: #a5f7f7;
+  }
+
+  85% {
+    background: #94f0f0;
+  }
+
+  91% {
+    background: #57dede;
+  }
+
+  93% {
+    background: #a5d3d3;
+  }
+
+  100% {
+    background: #9dddf0;
+  }
+}
 
 body {
-    margin: 0;
-    padding: 0;
-    
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-family: "Courier New", Courier, monospace;
-    background: linear-gradient(89deg, #FF5EDF 0%, #57dede 110%); /*w3c*/  
-  }
-  
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
-  }
-  
-  button{
-    cursor: pointer;
-  }
+  margin: 0;
+  padding: 0;
 
+  font-family: "Courier New", Courier, monospace, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   /* background: linear-gradient(89deg, #FF5EDF 0%, #57dede 110%);  */
+   background: linear-gradient(89deg, #00CC83 0%, #BBEFF8 110%); 
+   /* background: #00CC83; */
+   /* animation: blink 5s infinite; */
+}
 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
 
-  .App {
-    text-align: center;
-  }
-  
-  .center{
-    display: flex;
-    justify-content: center;
-  }
-  
-  .particles{
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-  }
+button {
+  cursor: pointer;
+}
 
+.logo {
+  text-align: center;
+  font-weight: 900;
+  color: #ffffff;
+  border-color: #00CC83;
+  font-size: 7rem;
+  position: absolute;
+  top: 60%;
+  right: 20%;
+  z-index: 1000;
+}
 
+.center {
+  display: flex;
+  justify-content: center;
+}
 
-  .form{
-	width: 700px;
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
 
-background:
-linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
-linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
-linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
-linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
-linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
-linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
-background-color: #131313;
-background-size: 20px 20px;
-
+.bg-img-color {
+  width: 100%;
+  height: 100%;
+  background-image: url(Utrecht_Centraal_station.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #11b9d6;
+  background-blend-mode: screen;
+  clip-path: polygon(0 0, 100% 0%, 100% 30%, 0 100%, 0 100%);
+  position: absolute;
+  z-index: -1;
 }
